@@ -14,7 +14,7 @@ namespace Con_Odbc
         static Program()
         {
             // Используется подключение "по умолчанию" определенного в файле App.config. Если используется подключение из строки в коде, нижеследующую строку нужно раскомментировать
-            //connectionString = @"Data Source=SVG-ASUS\SQLEXPRESS;Initial Catalog=Kassa24;integrated security=True;MultipleActiveResultSets=True";
+            //connectionString = @"Driver={SQL Server};Server=.\SQLEXPRESS;Database=Kassa24;Trusted_Connection=yes;MultipleActiveResultSets=True";
         }
 
         static void Main(string[] args)

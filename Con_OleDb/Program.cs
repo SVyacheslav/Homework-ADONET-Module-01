@@ -14,7 +14,7 @@ namespace Con_OleDb
         static Program()
         {
             // Используется подключение "по умолчанию" определенного в файле App.config. Если используется подключение из строки в коде, нижеследующую строку нужно раскомментировать
-            //connectionString = @"Data Source=SVG-ASUS\SQLEXPRESS;Initial Catalog=Kassa24;integrated security=True;MultipleActiveResultSets=True";
+            //connectionString = @"Provider=SQLOLEDB;Data Source=.\SQLEXPRESS;Initial Catalog=Kassa24;integrated security=SSPI;MultipleActiveResultSets=True";
         }
 
         static void Main(string[] args)

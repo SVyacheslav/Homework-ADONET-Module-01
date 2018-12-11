@@ -17,7 +17,7 @@ namespace Con_SqlClient
         {
             
             // Используется подключение "по умолчанию" определенного в файле App.config. Если используется подключение из строки в коде, нижеследующую строку нужно раскомментировать
-            //connectionString = @"Data Source=SVG-ASUS\SQLEXPRESS;Initial Catalog=Kassa24;integrated security=True;MultipleActiveResultSets=True";
+            //connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=Kassa24;integrated security=True;MultipleActiveResultSets=True";
         }
 
         static void Main(string[] args)
