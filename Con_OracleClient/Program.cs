@@ -17,7 +17,7 @@ namespace Con_OracleClient
         {
 
             // Используется подключение "по умолчанию" определенного в файле App.config. Если используется подключение из строки в коде, нижеследующую строку нужно раскомментировать
-            //connectionString = @"Data Source=Oracle9i;Integrated Security=yes";
+            //connectionString = @"Data Source=Oracle11i;Integrated Security=yes";
         }
 
         static void Main(string[] args)
